@@ -31,6 +31,10 @@ namespace GrandChasePatcher
                     Sign("2");
                     changeACBackground();
                     fixMainSoundTrack();
+                    goto case 3;
+                case 3:
+                    Sign("3");
+                    changeACBackground();
                     break;
             }
 
